@@ -1,0 +1,31 @@
+{
+  "name": "twinh/rate-limiter",
+  "description": "A rate limiter implement in PHP",
+  "autoload": {
+    "psr-4": {
+      "RateLimiter\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "RateLimiterTest\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "twinh",
+      "email": "itwinh@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-redis": "*"
+  },
+  "require-dev": {
+    "miaoxing/dev": "^9.2"
+  },
+  "config": {
+    "allow-plugins": {
+      "phpstan/extension-installer": true
+    }
+  }
+}

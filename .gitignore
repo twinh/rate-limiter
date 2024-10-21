@@ -1,0 +1,17 @@
+.idea/
+
+# php
+/vendor/
+phpunit.xml
+.php-cs-fixer.cache
+.phpunit.result.cache
+
+# php-coveralls
+/build/logs/clover.xml
+
+# miaoxing
+/storage/
+/tests/config-local.php
+
+# wei
+/log/
