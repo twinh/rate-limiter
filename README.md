@@ -126,3 +126,7 @@ $limiter->clear('user_id');
 2. Implement the methods of the rate limiter class.
 3. Create a `StorageInterface` for the rate limiter class.
 4. Implement storage object.
+
+## Class Diagram
+
+[![Class Diagram](docs/class-diagram.svg)](docs/class-diagram.svg)
