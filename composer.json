@@ -33,7 +33,8 @@
     "ext-redis": "*"
   },
   "require-dev": {
-    "miaoxing/dev": "^9.2"
+    "miaoxing/dev": "^9.2",
+    "wei/wei": "^0.17.8"
   },
   "config": {
     "allow-plugins": {

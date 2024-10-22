@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "41f1bc60105ff4797731275357317796",
+    "content-hash": "3e890af7181fa8b77158c2e3ede83d4f",
     "packages": [],
     "packages-dev": [
         {
@@ -5232,6 +5232,76 @@
             "time": "2024-03-03T12:36:25+00:00"
         },
         {
+            "name": "wei/wei",
+            "version": "v0.17.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twinh/wei.git",
+                "reference": "fe2ddc0d8bf6764ee9ed9372808404097e348615"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twinh/wei/zipball/fe2ddc0d8bf6764ee9ed9372808404097e348615",
+                "reference": "fe2ddc0d8bf6764ee9ed9372808404097e348615",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "joseph-lenton/php-error": "dev-master",
+                "miaoxing/dev": "^9.2.0"
+            },
+            "suggest": {
+                "ext-curl": "To use `\\Wei\\Http`",
+                "ext-redis": "To use `\\Wei\\Redis`",
+                "ext-simplexml": "To use `\\Wei\\WeChatApp`"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "0.17.8-dev"
+                },
+                "require-ci": {
+                    "miaoxing/dev": "miaoxing/dev as 9.x-dev",
+                    "miaoxing/phpstan-miaoxing": "miaoxing/phpstan-miaoxing as 3.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "lib/Wei.php",
+                    "lib/functions.php"
+                ],
+                "psr-4": {
+                    "Wei\\": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Twin Huang",
+                    "email": "twinhuang@qq.com",
+                    "homepage": "https://github.com/twinh/wei"
+                }
+            ],
+            "description": "A micro-framework provided powerful and simple APIs for faster and easier PHP development.",
+            "homepage": "https://github.com/twinh/wei",
+            "keywords": [
+                "cache",
+                "database",
+                "framework",
+                "validator"
+            ],
+            "support": {
+                "issues": "https://github.com/twinh/wei/issues",
+                "source": "https://github.com/twinh/wei/tree/v0.17.8"
+            },
+            "time": "2024-09-01T13:03:02+00:00"
+        },
+        {
             "name": "wp-coding-standards/wpcs",
             "version": "2.3.0",
             "source": {
@@ -5288,7 +5358,9 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-redis": "*"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
