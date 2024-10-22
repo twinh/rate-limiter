@@ -1,6 +1,17 @@
 {
   "name": "twinh/rate-limiter",
-  "description": "A rate limiter implement in PHP",
+  "description": "A flexible and scalable Rate Limiter, supporting various common strategies and storage methods.",
+  "type": "library",
+  "keywords": [
+    "limiter",
+    "rate-limit",
+    "rate-limiter",
+    "redis",
+    "fixed-window",
+    "sliding-window",
+    "leaky-bucket",
+    "token-bucket"
+  ],
   "autoload": {
     "psr-4": {
       "RateLimiter\\": "src/"
@@ -18,6 +29,7 @@
     }
   ],
   "require": {
+    "php": ">=8.0",
     "ext-redis": "*"
   },
   "require-dev": {
