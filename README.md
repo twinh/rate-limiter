@@ -129,4 +129,4 @@ $limiter->clear('user_id');
 
 ## Class Diagram
 
-[![Class Diagram](docs/class-diagram.svg)](docs/class-diagram.svg)
+[![Class Diagram](docs/class-diagram.svg)](https://raw.githubusercontent.com/twinh/rate-limiter/refs/heads/main/docs/class-diagram.svg)
