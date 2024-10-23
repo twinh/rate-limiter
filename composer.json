@@ -37,6 +37,9 @@
     "wei/wei": "^0.17.8"
   },
   "config": {
+    "platform": {
+      "php": "8.0"
+    },
     "allow-plugins": {
       "phpstan/extension-installer": true
     }
