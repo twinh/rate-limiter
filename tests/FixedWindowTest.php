@@ -69,7 +69,7 @@ class FixedWindowTest extends LimiterTestCase
         $this->assertSame(20, $limiter->getWindowSize());
     }
 
-    protected static function providerForStorage(): array
+    public static function providerForStorage(): array
     {
         return [
             [

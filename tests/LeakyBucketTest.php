@@ -56,7 +56,7 @@ class LeakyBucketTest extends LimiterTestCase
         $this->assertSame(20, $limiter->getRate());
     }
 
-    protected static function providerForStorage(): array
+    public static function providerForStorage(): array
     {
         return [
             [
